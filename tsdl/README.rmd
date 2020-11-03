@@ -1,0 +1,48 @@
+---
+output: github_document
+editor_options: 
+  chunk_output_type: console
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-"
+)
+```
+
+# tsdl: Time Series Data Library
+
+The Time Series Data Library (TSDL) was created by Rob Hyndman, Professor of Statistics at Monash University, Australia.
+
+## Installation
+
+
+You can install the **development** version from
+[Github](https://github.com/FinYang/tsdl)
+
+```r
+# install.packages("devtools")
+devtools::install_github("FinYang/tsdl")
+```
+
+## Usage
+
+```{r usage}
+library(tsdl)
+library(forecast)
+tsdl
+autoplot(tsdl[[1]])
+subset(tsdl,"Sales")
+```
+
+## Sources
+
+Rob Hyndman and Yangzhuoran Yang (2018). tsdl: Time Series Data Library. v0.1.0. https://pkg.yangzhuoranyang.com/tsdl/
+
+## License
+
+This package is free and open source software, licensed under GPL-3

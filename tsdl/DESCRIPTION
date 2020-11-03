@@ -1,0 +1,21 @@
+Package: tsdl
+Type: Package
+Title: Time Series Data Library
+Version: 0.1.0
+Authors@R: c(
+  person("Rob", "Hyndman", email="Rob.Hyndman@monash.edu", role=c("aut", "cre"), comment = c(ORCID = "0000-0002-2140-5352")),
+  person("Yangzhuoran", "Yang", email = "Fin.Yang@monash.edu", role = "aut")
+  )
+Maintainer: Yangzhuoran Yang <Fin.Yang@monash.edu>
+Description: The Time Series Data Library (TSDL) https://datamarket.com/data/list/?q=provider:tsdl was created by Rob Hyndman, 
+    Professor of Statistics at Monash University, Australia.
+License: GPL-3
+URL: https://finyang.github.io/tsdl/, https://github.com/FinYang/tsdl
+BugReports: https://github.com/FinYang/tsdl/issues
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
